@@ -1,6 +1,7 @@
 /* Common Shared Styles */
 body {
     font-family: 'Open Sans', sans-serif;
+    margin: 0px;
 }
 
 .btn-primary {
@@ -54,12 +55,18 @@ nav a {
 /* header related style */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    /* background-image: url('../images/developer.png'); */
 }
 
 .banner {
-    padding: 30px 30px 30px 230px;
+    padding: 30px 30px 0px 230px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+
 }
 
 .banner .profile-picture {
@@ -67,6 +74,28 @@ nav a {
     height: 676px;
 }
 
-.banner-content{
-    
+.banner-greeting {
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 0px;
 }
+
+.banner-title {
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.banner-description {
+    margin-bottom: 50px;
+}
+
+.banner-content {
+    max-width: 500px;
+
+}
+
+/* main section style */
+
+/* about section style */
