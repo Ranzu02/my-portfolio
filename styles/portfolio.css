@@ -11,6 +11,8 @@ body {
     font-size: 20px;
     font-weight: 700;
     padding: 15px 35px;
+
+    /* button size using the width and height */
     /* width: 150px;
     height: 64px;
     flex-shrink: 0; */
@@ -21,6 +23,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    /* margin: 0 200px; */
+    padding: 0 226px;
 }
 
 .nav-title {
@@ -45,4 +49,24 @@ nav li {
 
 nav a {
     text-decoration: none;
+}
+
+/* header related style */
+.header {
+    background-color: #FFF8F3;
+}
+
+.banner {
+    padding: 30px 30px 30px 230px;
+    display: flex;
+    align-items: center;
+}
+
+.banner .profile-picture {
+    width: 584px;
+    height: 676px;
+}
+
+.banner-content{
+    
 }
